@@ -18,9 +18,7 @@ body {
   line-height: normal; }
 
 h1,
-h2,
-h3,
-h4 {
+h2 {
   font-family: "Russia Black", serif;
   line-height: normal; }
 
@@ -34,7 +32,7 @@ h3 {
   font-size: 1.5rem; }
 
 h4 {
-  font-size: 1.5rem; }
+  font-size: 1.6rem; }
 
 /* Start section headings */
 .section_heading {
@@ -133,7 +131,8 @@ select#language_box {
 
 .button_lemur_second {
   box-sizing: border-box;
-  border: 3px solid #FDCA3A; }
+  border: 3px solid #FDCA3A;
+  margin-top: 26px; }
 
 /*End buttons*/
 /*Start mainmenu*/
@@ -311,12 +310,140 @@ section.wholesale {
   background: url(../img/wholesale_bg.png) top left; }
 
 /* END section price*/
-.social_blog_row > div {
+/* Start section sale*/
+.sale_item {
+  box-shadow: 2px 2px 8px rgba(91, 91, 91, 0.15);
   border-radius: 5px;
+  background-color: #ffffff;
+  margin: 15px;
+  padding: 0 0 60px 0; }
+
+.sale_item > img {
+  border-radius: 5px; }
+
+.sale_item_heading {
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 27px;
+  margin-top: 26px; }
+
+.sale_item_1 > .sale_item_heading {
+  color: #e23f44; }
+
+.sale_item_2 > .sale_item_heading {
+  color: #249ad1; }
+
+.sale_item_3 > .sale_item_heading {
+  color: #8cc642; }
+
+.sale_text {
+  font-size: 25px;
+  line-height: 29px;
+  font-weight: 300; }
+
+/* END section sale */
+/* Start section activity */
+section.activity {
+  padding-top: 40px; }
+
+.activity_item {
+  margin: 15px 0 15px 0; }
+
+.activity_item > img {
+  border-radius: 50%; }
+
+.activity_item_heading {
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 27px;
+  margin: 8px 0 16px 0; }
+
+.activity_item_1 > .activity_item_heading {
+  color: #8cc642; }
+
+.activity_item_2 > .activity_item_heading {
+  color: #e23f44; }
+
+.activity_item_3 > .activity_item_heading {
+  color: #369a64; }
+
+.activity_item_4 > .activity_item_heading {
+  color: #249ad1; }
+
+/* END section activity */
+/* Start section aboutus */
+section.aboutus {
+  margin-top: 40px; }
+
+.aboutus_section_heading {
+  margin: 0;
+  padding: 0; }
+
+.aboutus_section_subheadining {
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 33px;
+  padding-bottom: 20px;
+  margin-bottom: 20px; }
+
+.aboutus_text_box {
+  background-color: #fff;
+  padding: 40px 30px 40px 10px;
+  font-size: 22px; }
+
+.aboutus_list {
+  list-style: none;
+  display: inline-block; }
+
+.aboutus_list li {
+  display: block;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 26px;
+  margin-bottom: 22px; }
+
+.aboutus_list li::before {
+  content: "•";
+  color: black;
+  display: inline-block;
+  width: 30px;
+  margin-left: -20px; }
+
+.aboutus_list li:nth-child(1)::before {
+  content: "•";
+  color: #f8b91b;
+  display: inline-block;
+  width: 10px;
+  font-size: 60px;
+  margin-left: -20px; }
+
+.aboutus_text_box li:nth-child(2)::before {
+  content: "•";
+  color: #8cc642;
+  display: inline-block;
+  width: 10px;
+  font-size: 60px;
+  margin-left: -20px; }
+
+.aboutus_text_box li:nth-child(3)::before {
+  content: "•";
+  color: #e23f44;
+  display: inline-block;
+  width: 10px;
+  font-size: 60px;
+  margin-left: -20px; }
+
+/* END section aboutus */
+/* Start section social_blog */
+.social_blog_row > div {
   padding: 8px 13px 0px 13px; }
 
+.social_blog_row img {
+  border-radius: 5px;
+  text-align: center; }
+
 .blog_social_heading_box {
-  margin-bottom: 22px; }
+  margin: 22px 0px 22px 0px; }
 
 .blog_social_icon {
   margin-right: 22px; }
@@ -326,7 +453,8 @@ section.wholesale {
   font-weight: 300;
   line-height: 35px; }
 
-/*Start section contact*/
+/* END section social_blog*/
+/* Start section contact*/
 section.contact {
   padding-top: 50px;
   background: url(../img/map_bg_nosuha.png) bottom right no-repeat; }
