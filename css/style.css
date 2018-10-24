@@ -100,68 +100,22 @@ select#language_box {
   max-height: 38px; }
 
 /*End header*/
-/*Start buttons*/
-.btn {
-  border-radius: 60px;
-  font-size: 16px; }
-
-.button_lemur_first {
-  box-shadow: 0 2px 2px rgba(51, 51, 51, 0.15);
-  background: linear-gradient(99.11deg, #FFD644 -12.88%, #F8A51B 99.46%);
-  text-shadow: 3px 3px 3px rgba(91, 91, 91, 0.15);
-  color: #ffffff;
-  font-weight: 600;
-  font-size: 16px;
-  text-align: center;
-  padding-left: 16px;
-  padding-right: 16px; }
-
-.button_lemur_first:hover {
-  background: linear-gradient(99.11deg, #FFE175 -12.88%, #F8A51B 99.46%, #FFBF56 99.46%);
-  box-shadow: 0px 2px 2px rgba(51, 51, 51, 0.15);
-  color: #ffffff; }
-
-.button_lemur_first:active {
-  background: linear-gradient(99.11deg, #FFD644 -12.88%, #F8A51B 99.46%);
-  box-shadow: inset 0px 2px 2px rgba(51, 51, 51, 0.15); }
-
-.button_lemur_second {
-  box-sizing: border-box;
-  border: 3px solid #FDCA3A;
+/*Start breadcrumbs */
+.breadcrumbs_link {
+  font-size: 24px;
   font-weight: 300;
-  font-size: 24px;
-  text-align: center;
-  padding-left: 32px;
-  padding-right: 12px; }
-
-.button_lemur_second:hover {
-  background: linear-gradient(125.89deg, #FFD154 5.02%, #FFBF44 93.42%); }
-
-.button_lemur_second:active {
-  background: linear-gradient(125.89deg, #FFD154 5.02%, #FFBF44 93.42%);
-  box-shadow: inset 0px 1px 4px rgba(91, 91, 91, 0.15); }
-
-.button_lemur_third {
-  background: linear-gradient(99.24deg, #FFD644 -12.88%, #F8A51B 99.46%);
-  box-shadow: 0px 4px 4px rgba(1, 0, 1, 0.25);
-  font-weight: 600;
   line-height: normal;
-  font-size: 24px;
-  color: #FFFFFF;
-  text-align: center;
-  text-shadow: 0px 4px 4px rgba(248, 160, 27, 0.25);
-  padding: 12px 24px 12px 24px; }
+  font-size: 28px;
+  text-decoration-line: underline; }
 
-.button_lemur_third:hover {
-  background: linear-gradient(99.24deg, #FFDC61 -12.88%, #FFB63C 99.46%);
-  box-shadow: 0px 4px 4px rgba(1, 0, 1, 0.25);
-  color: #ffffff; }
+.breadcrumbs_link_disabled {
+  text-decoration-line: none; }
 
-.button_lemur_third:active {
-  background: linear-gradient(99.24deg, #FFD644 -12.88%, #F8A51B 99.46%);
-  box-shadow: inset 0px 2px 4px rgba(91, 91, 91, 0.15); }
+.breadcrumbs_separator::after {
+  content: " / ";
+  font-size: 24px; }
 
-/*End buttons*/
+/*End breadcrumbs */
 /*Start mainmenu*/
 main {
   background: url(../img/mainslide1.jpg) no-repeat;
@@ -474,7 +428,7 @@ section.activity {
 section.aboutus {
   margin-top: 40px;
   padding-top: 20px;
-  padding-bottom: 40px; }
+  padding-bottom: 100px; }
 
 .aboutus_section_heading {
   margin: 0;
@@ -494,21 +448,16 @@ section.aboutus {
   font-size: 22px;
   padding: 30px 30px 20px 30px; }
 
-.image_box {
-  overflow: hidden; }
-
 .aboutus_bg_rabbit {
-  position: relative;
+  position: absolute;
   z-index: 999;
-  margin-top: -140px;
-  margin-left: -100px; }
+  margin-top: -150px;
+  margin-left: 160px; }
 
 .aboutus_bg_enot {
   position: relative;
   z-index: 999;
-  margin-top: -560px;
-  margin-left: 800px;
-  max-height: 300px; }
+  margin-top: -360px; }
 
 .aboutus_list {
   list-style: none; }
@@ -537,7 +486,7 @@ section.aboutus {
   display: inline-block;
   vertical-align: -15%; }
 
-.aboutus_text_box li:nth-child(2)::before {
+.aboutus_list li:nth-child(2)::before {
   content: "●";
   color: #8cc642;
   font-size: 40px;
@@ -545,7 +494,7 @@ section.aboutus {
   display: inline-block;
   vertical-align: -15%; }
 
-.aboutus_text_box li:nth-child(3)::before {
+.aboutus_list li:nth-child(3)::before {
   content: "●";
   color: #e23f44;
   font-size: 40px;
@@ -576,7 +525,8 @@ section.aboutus {
 /* END section social_blog*/
 /* Start section contact*/
 section.contact {
-  padding-top: 50px; }
+  padding-top: 40px;
+  padding-bottom: 40px; }
 
 .contact_bg_nosuha {
   position: absolute;
@@ -625,6 +575,97 @@ section.contact {
   font-weight: 300;
   font-size: 18px; }
 
-/* END */
+/* End footer*/
+/*Start buttons*/
+.btn {
+  border-radius: 60px;
+  font-size: 16px; }
+
+.button_lemur_first {
+  box-shadow: 0 2px 2px rgba(51, 51, 51, 0.15);
+  background: linear-gradient(99.11deg, #FFD644 -12.88%, #F8A51B 99.46%);
+  text-shadow: 3px 3px 3px rgba(91, 91, 91, 0.15);
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  padding-left: 16px;
+  padding-right: 16px; }
+
+.button_lemur_first:hover {
+  background: linear-gradient(99.11deg, #FFE175 -12.88%, #F8A51B 99.46%, #FFBF56 99.46%);
+  box-shadow: 0px 2px 2px rgba(51, 51, 51, 0.15);
+  color: #ffffff; }
+
+.button_lemur_first:active {
+  background: linear-gradient(99.11deg, #FFD644 -12.88%, #F8A51B 99.46%);
+  box-shadow: inset 0px 2px 2px rgba(51, 51, 51, 0.15); }
+
+.button_lemur_second {
+  box-sizing: border-box;
+  border: 3px solid #FDCA3A;
+  font-weight: 300;
+  font-size: 24px;
+  text-align: center;
+  padding-left: 32px;
+  padding-right: 12px; }
+
+.button_lemur_second:hover {
+  background: linear-gradient(125.89deg, #FFD154 5.02%, #FFBF44 93.42%); }
+
+.button_lemur_second:active {
+  background: linear-gradient(125.89deg, #FFD154 5.02%, #FFBF44 93.42%);
+  box-shadow: inset 0px 1px 4px rgba(91, 91, 91, 0.15); }
+
+.button_lemur_third {
+  background: linear-gradient(99.24deg, #FFD644 -12.88%, #F8A51B 99.46%);
+  box-shadow: 0px 4px 4px rgba(1, 0, 1, 0.25);
+  font-weight: 600;
+  line-height: normal;
+  font-size: 24px;
+  color: #FFFFFF;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(248, 160, 27, 0.25);
+  padding: 12px 24px 12px 24px; }
+
+.button_lemur_third:hover {
+  background: linear-gradient(99.24deg, #FFDC61 -12.88%, #FFB63C 99.46%);
+  box-shadow: 0px 4px 4px rgba(1, 0, 1, 0.25);
+  color: #ffffff; }
+
+.button_lemur_third:active {
+  background: linear-gradient(99.24deg, #FFD644 -12.88%, #F8A51B 99.46%);
+  box-shadow: inset 0px 2px 4px rgba(91, 91, 91, 0.15); }
+
+/*End buttons*/
+/* START OTHER PAGES STYLES */
+/* Start contcts page */
+section.contacts_full,
+section.contacts_full_map {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+.contacts_full_heading {
+  color: #369a64;
+  font-size: 26px;
+  font-weight: 600; }
+
+.contacts_full_text {
+  color: #000000;
+  font-size: 26px;
+  font-weight: 300; }
+
+/*End contcts page*/
+/* Start price page */
+.table_legend,
+.discount_legend {
+  font-size: 18px;
+  font-weight: 300; }
+
+.wholelase_legend {
+  font-size: 18px;
+  font-weight: 600; }
+
+/*End price page*/
 
 /*# sourceMappingURL=style.css.map */
