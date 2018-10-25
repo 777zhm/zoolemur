@@ -657,6 +657,10 @@ section.contacts_full_map {
 
 /*End contcts page*/
 /* Start price page */
+section.breadcrumb {
+  background-color: #f6fafd;
+  padding-top: 40px; }
+
 .table_legend,
 .discount_legend {
   font-size: 18px;
@@ -664,7 +668,58 @@ section.contacts_full_map {
 
 .wholelase_legend {
   font-size: 18px;
-  font-weight: 600; }
+  font-weight: 600;
+  padding-top: 20px; }
+
+.wholesale_action_box {
+  box-shadow: 0 1px 5px rgba(91, 91, 91, 0.15);
+  border-radius: 15px;
+  background-color: #ffffff; }
+
+.action_text {
+  font-family: Russia;
+  font-size: 35px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: none; }
+
+.action_text_colored {
+  font-family: Russia;
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: 900;
+  color: #F8A51B; }
+
+.label_action {
+  width: 98px;
+  height: 98px;
+  border-radius: 60px;
+  margin-right: 20px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  text-align: center;
+  background-image: linear-gradient(129deg, rgba(253, 203, 59, 0) 0%, rgba(248, 165, 27, 0) 100%), linear-gradient(141deg, #a8e15f 0%, #8ac243 100%); }
+
+.label_action_price {
+  color: #ffffff;
+  font-family: "Russia Black", serif;
+  font-size: 36px;
+  font-weight: 900;
+  padding-top: 22px; }
+
+.label_action_currency {
+  position: relative;
+  font-size: 20px;
+  font-weight: 900;
+  color: #ffffff;
+  font-family: "Russia Black", serif;
+  top: -26px; }
+
+.text_colored_orange {
+  font-family: Russia;
+  font-size: 45px;
+  font-weight: 900;
+  color: #F8A51B; }
 
 /*End price page*/
 
