@@ -2,14 +2,14 @@
 
 @font-face {
     font-family: "Russia Black";
-    src: url("/fonts/russia-black.otf") format("opentype");
+    src: url("../fonts/russia-black.otf") format("opentype");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: "Russia";
-    src: url("/fonts/russia-regular.ttf") format("truetype");
+    src: url("../fonts/russia-regular.ttf") format("truetype");
     font-style: italic;
     font-weight: bold;
 }
@@ -40,7 +40,7 @@ body {
 }
 
 h1,
-h2,
+h2
 {
     font-family: $font-family-heading;
     line-height: normal;
@@ -96,18 +96,18 @@ a:hover{
 }
 
 .header_info_box{
-padding: 0 20px 30px 20px;
+	padding: 0 20px 30px 20px;
 }
 
 .icon_box>img{
-max-height: 26px;
+	max-height: 26px;
 }
 
 .contact_text{
-font-weight: 300;
-font-size: 22px;
-color: $text-color-dark;
-line-height: 26px;
+	font-weight: 300;
+	font-size: 22px;
+	color: $text-color-dark;
+	line-height: 26px;
 }
 
 .span_appercase{
@@ -140,7 +140,7 @@ select#language_box{
 }
 
 .social_box>a{
-	margin: 0px;
+	margin: 0;
 }
 
 .social_box img{
@@ -151,11 +151,9 @@ select#language_box{
 /*End header*/
 /*Start breadcrumbs */
 .breadcrumbs_link{
-font-size: 24px;
-font-weight: 300;
-line-height: normal;
-font-size: 28px;
-text-decoration-line: underline;
+	font-weight: 300;
+	font-size: 28px;
+	text-decoration-line: underline;
 }
 
 .breadcrumbs_link_disabled{
@@ -192,19 +190,17 @@ nav#mainmenu{
 
 #mainmenu_list li {
 	float: left;
-	line-height: 1.2rem;
 	display: block;
 	color: $text-color-light;
 	text-align: center;
 	padding: 4px 8px 4px 8px;
 	font-weight: 600;
-	line-height: normal;
 	font-size: 26px;
 	margin-right: 2em;
 }
 
 #mainmenu_list li a{
-color: $text-color-light;
+	color: $text-color-light;
 }
 
 
@@ -226,8 +222,8 @@ color: $text-color-light;
   margin-left: -20px}
 
 #mainmenu_list li:nth-child(4)::before {content: "•"; color: #E23F44;
-  display: inline-block; width: 10px;
-  margin-left: -20px;}
+	display: inline-block; width: 10px;
+	margin-left: -20px;}
 
 /*End mainmenu*/
 /* Start slider_box */
@@ -237,34 +233,34 @@ color: $text-color-light;
 }
 
 .slider_heading{
-font-family: $font-family-heading;
-line-height: normal;
-font-size: 60px;
-letter-spacing: 0.01em;
-color: #FEFEFE;
-text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+	font-family: $font-family-heading;
+	line-height: normal;
+	font-size: 60px;
+	letter-spacing: 0.01em;
+	color: #FEFEFE;
+	text-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
 
 
 .slider_text_uppercase{
-font-family: $font-family-heading;
-text-transform: uppercase;
-color: #FDCB3B;
+	font-family: $font-family-heading;
+	text-transform: uppercase;
+	color: #FDCB3B;
 }
 
 
 .slider_price{
-color: #FEFEFE;
-font-weight: 800;
-line-height: normal;
-font-size: 40px;
+	color: #FEFEFE;
+	font-weight: 800;
+	line-height: normal;
+	font-size: 40px;
 }
 
 .line_through{
-color: #E23F44;
-text-decoration: line-through;
-padding-left: 10px;
-padding-right: 22px;
+	color: #E23F44;
+	text-decoration: line-through;
+	padding-left: 10px;
+	padding-right: 22px;
 }
 
 .label_round{
@@ -304,14 +300,14 @@ padding-right: 22px;
 }
 
 .label_comment_small{
-font-size: 20px;
+	font-size: 20px;
 }
 
 .slider_selling_text{
 	font-weight: 800;
-line-height: normal;
-font-size: 31px;
-text-align: center;
+	line-height: normal;
+	font-size: 31px;
+	text-align: center;
 }
 
 .slider_button_box{
@@ -326,11 +322,11 @@ section.animals{
 }
 
 .animals_row h2{
-	font-family: Open Sans;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	line-height: normal;
 	font-size: 28px;
-	margin-top: 0px;
+	margin-top: 0;
 }
 
 .animal_item{
@@ -372,9 +368,9 @@ section.price{
 }
 
 .table_text{
-font-size: 25px;
-font-weight: 400;
-line-height: 29px;
+	font-size: 25px;
+	font-weight: 400;
+	line-height: 29px;
 }
 
 .table_text_small{
@@ -410,17 +406,17 @@ table.table {
 */
 
 .wholesale_box{
-box-shadow: 0 1px 5px rgba(91, 91, 91, 0.15);
-border-radius: 15px;
-background-color: #ffffff;
-padding: 40px 40px 50px 40px;
-margin-top: 60px;
+	box-shadow: 0 1px 5px rgba(91, 91, 91, 0.15);
+	border-radius: 15px;
+	background-color: #ffffff;
+	padding: 40px 40px 50px 40px;
+	margin-top: 60px;
 }
 
 .wholesale_bg_lemur{
-z-index: 999;
-margin-right: 170px;
-margin-top:-200px;
+	z-index: 999;
+	margin-right: 170px;
+	margin-top:-200px;
 }
 
 
@@ -454,11 +450,11 @@ margin-top:-200px;
 /* Start section sale*/
 
 .sale_item{
-box-shadow: 2px 2px 8px rgba(91, 91, 91, 0.15);
-border-radius: 5px;
-background-color: #ffffff;
-margin: 15px;
-padding: 0 0 60px 0;
+	box-shadow: 2px 2px 8px rgba(91, 91, 91, 0.15);
+	border-radius: 5px;
+	background-color: #ffffff;
+	margin: 15px;
+	padding: 0 0 60px 0;
 }
 
 .sale_item>img{
@@ -467,22 +463,22 @@ padding: 0 0 60px 0;
 
 
 .sale_item_heading{
-font-size: 23px;
-font-weight: 700;
-line-height: 27px;
-margin-top: 26px;
+	font-size: 23px;
+	font-weight: 700;
+	line-height: 27px;
+	margin-top: 26px;
 }
 
 .sale_item_1>.sale_item_heading{
-color: #e23f44;
+	color: #e23f44;
 }
 
 .sale_item_2>.sale_item_heading{
-color: #249ad1;
+	color: #249ad1;
 }
 
 .sale_item_3>.sale_item_heading{
-color: #8cc642;
+	color: #8cc642;
 }
 
 .sale_text{
@@ -497,7 +493,7 @@ section.activity{
 }
 
 .activity_item{
-margin: 15px 0 15px 0;
+	margin: 15px 0 15px 0;
 }
 
 .activity_item>img{
@@ -513,19 +509,19 @@ margin: 15px 0 15px 0;
 }
 
 .activity_item_1>.activity_item_heading{
-color: #8cc642;
+	color: #8cc642;
 }
 
 .activity_item_2>.activity_item_heading{
-color: #e23f44;
+	color: #e23f44;
 }
 
 .activity_item_3>.activity_item_heading{
-color: #369a64;
+	color: #369a64;
 }
 
 .activity_item_4>.activity_item_heading{
-color: #249ad1;
+	color: #249ad1;
 }
 /* END section activity */
 /* Start section aboutus */
@@ -596,7 +592,7 @@ font-size: 40px; margin-left: -34px; display: inline-block; vertical-align: -15%
 /* END section aboutus */
 /* Start section social_blog */
 .social_blog_row>div{
-	padding: 8px 13px 0px 13px;
+	padding: 8px 13px 0 13px;
 }
 
 .social_blog_row img{
@@ -605,23 +601,23 @@ font-size: 40px; margin-left: -34px; display: inline-block; vertical-align: -15%
 }
 
 .blog_social_heading_box{
-	margin: 22px 0px 22px 0px;
+	margin: 22px 0 22px 0;
 }
 .blog_social_icon{
 	margin-right: 22px;
 
 }
 .blog_social_text{
-font-size: 30px;
-font-weight: 300;
-line-height: 35px;
+	font-size: 30px;
+	font-weight: 300;
+	line-height: 35px;
 }
 
 /* END section social_blog*/
 /* Start section contact*/
 section.contact{
-padding-top: 40px;
-padding-bottom: 40px;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
 .contact_bg_nosuha{
@@ -648,16 +644,17 @@ padding-bottom: 40px;
 /*End section contact*/
 /* Start footer*/
 .footer_menu_list {
-  list-style: none;
-  font-weight: bold;
-  overflow: hidden;
+	list-style: none;
+	font-weight: bold;
+	overflow: hidden;
 }
 
 .footer_menu_list li {
-  display: inline-block;
-  font-size: 1em;
-  text-align: center;
-  padding: 4px 8px 4px 8px; }
+	display: inline-block;
+	font-size: 1em;
+	text-align: center;
+	padding: 4px 8px 4px 8px;
+}
 
 .contact_info_footer{
 	padding-left: 20px;
@@ -669,9 +666,8 @@ padding-bottom: 40px;
 	margin-top: -50px;
 }
 .logo_footer{
-margin-right: 20px;
-margin-top: 70px;
-
+	margin-right: 20px;
+	margin-top: 70px;
 }
 
 .telephone_link_footer{
@@ -700,14 +696,14 @@ margin-top: 70px;
 }
 
 .button_lemur_first:hover{
-background: linear-gradient(99.11deg, #FFE175 -12.88%, #F8A51B 99.46%, #FFBF56 99.46%);
-box-shadow: 0px 2px 2px rgba(51, 51, 51, 0.15);
-color: #ffffff;
+	background: linear-gradient(99.11deg, #FFE175 -12.88%, #F8A51B 99.46%, #FFBF56 99.46%);
+	box-shadow: 0 2px 2px rgba(51, 51, 51, 0.15);
+	color: #ffffff;
 }
 
 .button_lemur_first:active{
-background: linear-gradient(99.11deg, #FFD644 -12.88%, #F8A51B 99.46%);
-box-shadow: inset 0px 2px 2px rgba(51, 51, 51, 0.15);
+	background: linear-gradient(99.11deg, #FFD644 -12.88%, #F8A51B 99.46%);
+	box-shadow: inset 0 2px 2px rgba(51, 51, 51, 0.15);
 }
 
 .button_lemur_second{
@@ -726,38 +722,38 @@ box-shadow: inset 0px 2px 2px rgba(51, 51, 51, 0.15);
 
 .button_lemur_second:active{
 	background: linear-gradient(125.89deg, #FFD154 5.02%, #FFBF44 93.42%);
-	box-shadow: inset 0px 1px 4px rgba(91, 91, 91, 0.15);
+	box-shadow: inset 0 1px 4px rgba(91, 91, 91, 0.15);
 }
 
 
 .button_lemur_third{
 	background: linear-gradient(99.24deg, #FFD644 -12.88%, #F8A51B 99.46%);
-	box-shadow: 0px 4px 4px rgba(1, 0, 1, 0.25);
+	box-shadow: 0 4px 4px rgba(1, 0, 1, 0.25);
 	font-weight: 600;
 	line-height: normal;
 	font-size: 24px;
 	color: #FFFFFF;
 	text-align: center;
-	text-shadow: 0px 4px 4px rgba(248, 160, 27, 0.25);
+	text-shadow: 0 4px 4px rgba(248, 160, 27, 0.25);
 	padding: 12px 24px 12px 24px;
 
 }
 
 .button_lemur_third:hover{
-background: linear-gradient(99.24deg, #FFDC61 -12.88%, #FFB63C 99.46%);
-box-shadow: 0px 4px 4px rgba(1, 0, 1, 0.25);
-color: #ffffff;
+	background: linear-gradient(99.24deg, #FFDC61 -12.88%, #FFB63C 99.46%);
+	box-shadow: 0 4px 4px rgba(1, 0, 1, 0.25);
+	color: #ffffff;
 }
 
 .button_lemur_third:active{
-background: linear-gradient(99.24deg, #FFD644 -12.88%, #F8A51B 99.46%);
-box-shadow: inset 0px 2px 4px rgba(91, 91, 91, 0.15);
+	background: linear-gradient(99.24deg, #FFD644 -12.88%, #F8A51B 99.46%);
+	box-shadow: inset 0 2px 4px rgba(91, 91, 91, 0.15);
 }
 
 /*End buttons*/
 
 /* START OTHER PAGES STYLES */
-/* Start contcts page */
+/* Start contacts page */
 section.contacts_full,
 section.contacts_full_map{
 	// background-color: #fff;
@@ -766,18 +762,18 @@ section.contacts_full_map{
 }
 
 .contacts_full_heading{
-color: #369a64;
-font-size: 26px;
-font-weight: 600;
+	color: #369a64;
+	font-size: 26px;
+	font-weight: 600;
 }
 
 .contacts_full_text{
-color: #000000;
-font-size: 26px;
-font-weight: 300;
+	color: #000000;
+	font-size: 26px;
+	font-weight: 300;
 }
 
-/*End contcts page*/
+/*End contacts page*/
 /* Start price page */
 section.breadcrumb{
 	background-color: $background-color;
@@ -786,36 +782,36 @@ section.breadcrumb{
 
 .table_legend,
 .discount_legend{
-font-size: 18px;
-font-weight: 300;
+	font-size: 18px;
+	font-weight: 300;
 }
 
-.wholelase_legend{
-font-size: 18px;
-font-weight: 600;
-padding-top: 20px;
+.wholesale_legend{
+	font-size: 18px;
+	font-weight: 600;
+	padding-top: 20px;
 }
 
 .wholesale_action_box{
-box-shadow: 0 1px 5px rgba(91, 91, 91, 0.15);
-border-radius: 15px;
-background-color: #ffffff;	
+	box-shadow: 0 1px 5px rgba(91, 91, 91, 0.15);
+	border-radius: 15px;
+	background-color: #ffffff;
 }
 
 .action_text{
-font-family: Russia;
-font-size: 35px;
-font-weight: 400;
-text-align: center;
-text-transform: none;
+	font-family: Russia, serif;
+	font-size: 35px;
+	font-weight: 400;
+	text-align: center;
+	text-transform: none;
 }
 
 .action_text_colored{
-font-family: Russia;
-text-transform: uppercase;
-font-size: 35px;
-font-weight: 900;
-color: #F8A51B;
+	font-family: Russia, serif;
+	text-transform: uppercase;
+	font-size: 35px;
+	font-weight: 900;
+	color: #F8A51B;
 }
 
 .label_action{
@@ -831,24 +827,24 @@ color: #F8A51B;
 }
 
 .label_action_price{
-color: #ffffff;
-font-family: $font-family-heading;
-font-size: 36px;
-font-weight: 900;
-padding-top: 22px;
+	color: #ffffff;
+	font-family: $font-family-heading;
+	font-size: 36px;
+	font-weight: 900;
+	padding-top: 22px;
 }
 
 .label_action_currency{
 	position: relative;
-font-size: 20px;
-font-weight: 900;
-color: #ffffff;
-font-family: $font-family-heading;
-top: -26px;
+	font-size: 20px;
+	font-weight: 900;
+	color: #ffffff;
+	font-family: $font-family-heading;
+	top: -26px;
 }
 
 .text_colored_orange{
-	font-family: Russia;
+	font-family: Russia, serif;
 	font-size: 45px;
 	font-weight: 900;
 	color: #F8A51B;

@@ -2,12 +2,12 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
 @font-face {
   font-family: "Russia Black";
-  src: url("/fonts/russia-black.otf") format("opentype");
+  src: url("../fonts/russia-black.otf") format("opentype");
   font-style: normal;
   font-weight: normal; }
 @font-face {
   font-family: "Russia";
-  src: url("/fonts/russia-regular.ttf") format("truetype");
+  src: url("../fonts/russia-regular.ttf") format("truetype");
   font-style: italic;
   font-weight: bold; }
 body {
@@ -93,7 +93,7 @@ select#language_box {
   margin: 8px; }
 
 .social_box > a {
-  margin: 0px; }
+  margin: 0; }
 
 .social_box img {
   margin-left: 8px;
@@ -102,9 +102,7 @@ select#language_box {
 /*End header*/
 /*Start breadcrumbs */
 .breadcrumbs_link {
-  font-size: 24px;
   font-weight: 300;
-  line-height: normal;
   font-size: 28px;
   text-decoration-line: underline; }
 
@@ -131,13 +129,11 @@ nav#mainmenu {
 
 #mainmenu_list li {
   float: left;
-  line-height: 1.2rem;
   display: block;
   color: #ffffff;
   text-align: center;
   padding: 4px 8px 4px 8px;
   font-weight: 600;
-  line-height: normal;
   font-size: 26px;
   margin-right: 2em; }
 
@@ -145,35 +141,35 @@ nav#mainmenu {
   color: #ffffff; }
 
 #mainmenu_list li::before {
-  content: "•";
+  content: "ΓÇó";
   color: black;
   display: inline-block;
   width: 10px;
   margin-left: -20px; }
 
 #mainmenu_list li:nth-child(1)::before {
-  content: "•";
+  content: "ΓÇó";
   color: #F8A01B;
   display: inline-block;
   width: 10px;
   margin-left: -20px; }
 
 #mainmenu_list li:nth-child(2)::before {
-  content: "•";
+  content: "ΓÇó";
   color: #8CC642;
   display: inline-block;
   width: 10px;
   margin-left: -20px; }
 
 #mainmenu_list li:nth-child(3)::before {
-  content: "•";
+  content: "ΓÇó";
   color: #2890C1;
   display: inline-block;
   width: 10px;
   margin-left: -20px; }
 
 #mainmenu_list li:nth-child(4)::before {
-  content: "•";
+  content: "ΓÇó";
   color: #E23F44;
   display: inline-block;
   width: 10px;
@@ -191,7 +187,7 @@ nav#mainmenu {
   font-size: 60px;
   letter-spacing: 0.01em;
   color: #FEFEFE;
-  text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3); }
+  text-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); }
 
 .slider_text_uppercase {
   font-family: "Russia Black", serif;
@@ -259,11 +255,11 @@ section.animals {
   padding-bottom: 40px; }
 
 .animals_row h2 {
-  font-family: Open Sans;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   line-height: normal;
   font-size: 28px;
-  margin-top: 0px; }
+  margin-top: 0; }
 
 .animal_item {
   margin-bottom: 20px; }
@@ -470,7 +466,7 @@ section.aboutus {
   margin-bottom: 22px; }
 
 .aboutus_list li::before {
-  content: "●";
+  content: "ΓùÅ";
   color: black;
   font-size: 40px;
   margin-left: -34px;
@@ -479,7 +475,7 @@ section.aboutus {
   vertical-align: middle; }
 
 .aboutus_list li:nth-child(1)::before {
-  content: "●";
+  content: "ΓùÅ";
   color: #f8b91b;
   font-size: 40px;
   margin-left: -34px;
@@ -487,7 +483,7 @@ section.aboutus {
   vertical-align: -15%; }
 
 .aboutus_list li:nth-child(2)::before {
-  content: "●";
+  content: "ΓùÅ";
   color: #8cc642;
   font-size: 40px;
   margin-left: -34px;
@@ -495,7 +491,7 @@ section.aboutus {
   vertical-align: -15%; }
 
 .aboutus_list li:nth-child(3)::before {
-  content: "●";
+  content: "ΓùÅ";
   color: #e23f44;
   font-size: 40px;
   margin-left: -34px;
@@ -505,14 +501,14 @@ section.aboutus {
 /* END section aboutus */
 /* Start section social_blog */
 .social_blog_row > div {
-  padding: 8px 13px 0px 13px; }
+  padding: 8px 13px 0 13px; }
 
 .social_blog_row img {
   border-radius: 5px;
   text-align: center; }
 
 .blog_social_heading_box {
-  margin: 22px 0px 22px 0px; }
+  margin: 22px 0 22px 0; }
 
 .blog_social_icon {
   margin-right: 22px; }
@@ -594,12 +590,12 @@ section.contact {
 
 .button_lemur_first:hover {
   background: linear-gradient(99.11deg, #FFE175 -12.88%, #F8A51B 99.46%, #FFBF56 99.46%);
-  box-shadow: 0px 2px 2px rgba(51, 51, 51, 0.15);
+  box-shadow: 0 2px 2px rgba(51, 51, 51, 0.15);
   color: #ffffff; }
 
 .button_lemur_first:active {
   background: linear-gradient(99.11deg, #FFD644 -12.88%, #F8A51B 99.46%);
-  box-shadow: inset 0px 2px 2px rgba(51, 51, 51, 0.15); }
+  box-shadow: inset 0 2px 2px rgba(51, 51, 51, 0.15); }
 
 .button_lemur_second {
   box-sizing: border-box;
@@ -615,31 +611,31 @@ section.contact {
 
 .button_lemur_second:active {
   background: linear-gradient(125.89deg, #FFD154 5.02%, #FFBF44 93.42%);
-  box-shadow: inset 0px 1px 4px rgba(91, 91, 91, 0.15); }
+  box-shadow: inset 0 1px 4px rgba(91, 91, 91, 0.15); }
 
 .button_lemur_third {
   background: linear-gradient(99.24deg, #FFD644 -12.88%, #F8A51B 99.46%);
-  box-shadow: 0px 4px 4px rgba(1, 0, 1, 0.25);
+  box-shadow: 0 4px 4px rgba(1, 0, 1, 0.25);
   font-weight: 600;
   line-height: normal;
   font-size: 24px;
   color: #FFFFFF;
   text-align: center;
-  text-shadow: 0px 4px 4px rgba(248, 160, 27, 0.25);
+  text-shadow: 0 4px 4px rgba(248, 160, 27, 0.25);
   padding: 12px 24px 12px 24px; }
 
 .button_lemur_third:hover {
   background: linear-gradient(99.24deg, #FFDC61 -12.88%, #FFB63C 99.46%);
-  box-shadow: 0px 4px 4px rgba(1, 0, 1, 0.25);
+  box-shadow: 0 4px 4px rgba(1, 0, 1, 0.25);
   color: #ffffff; }
 
 .button_lemur_third:active {
   background: linear-gradient(99.24deg, #FFD644 -12.88%, #F8A51B 99.46%);
-  box-shadow: inset 0px 2px 4px rgba(91, 91, 91, 0.15); }
+  box-shadow: inset 0 2px 4px rgba(91, 91, 91, 0.15); }
 
 /*End buttons*/
 /* START OTHER PAGES STYLES */
-/* Start contcts page */
+/* Start contacts page */
 section.contacts_full,
 section.contacts_full_map {
   padding-top: 40px;
@@ -655,7 +651,7 @@ section.contacts_full_map {
   font-size: 26px;
   font-weight: 300; }
 
-/*End contcts page*/
+/*End contacts page*/
 /* Start price page */
 section.breadcrumb {
   background-color: #f6fafd;
@@ -666,7 +662,7 @@ section.breadcrumb {
   font-size: 18px;
   font-weight: 300; }
 
-.wholelase_legend {
+.wholesale_legend {
   font-size: 18px;
   font-weight: 600;
   padding-top: 20px; }
@@ -677,14 +673,14 @@ section.breadcrumb {
   background-color: #ffffff; }
 
 .action_text {
-  font-family: Russia;
+  font-family: Russia, serif;
   font-size: 35px;
   font-weight: 400;
   text-align: center;
   text-transform: none; }
 
 .action_text_colored {
-  font-family: Russia;
+  font-family: Russia, serif;
   text-transform: uppercase;
   font-size: 35px;
   font-weight: 900;
@@ -716,7 +712,7 @@ section.breadcrumb {
   top: -26px; }
 
 .text_colored_orange {
-  font-family: Russia;
+  font-family: Russia, serif;
   font-size: 45px;
   font-weight: 900;
   color: #F8A51B; }
