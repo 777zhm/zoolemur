@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
+
+
+
+
+
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="img/mainslide1-min.jpg" alt="зоопарк Лемур">
+		<div class="carousel-caption">
+	      	<div class="row justify-content-end">
+				<div class="col-md-8 text-center">
+					<h2 class="slider_heading"><span class="slider_text_uppercase">Новий сімейний</span><br>зоопарк &ldquo;Лемур&rdquo;</h2>
+				</div>
+			</div>
+            <div class="row justify-content-end">
+				<div class="col-md-8">
+					<div class="row justify-content-center">
+                <p class="line_through align-self-center"><span class="slider_price">190</span></p>
+                    <div class="label_round align-items-start">
+                        <p class="label_slider_price">150</p>
+                        <span class="label_slider_currency">грн</span>
+                    </div>
+                <p class="label_comment align-self-center">
+                    <span class="label_comment_big">до 11.11.2018 <sup class="asterisk">&#10033;</sup></span><br>
+                    <span class="label_comment_small">у зв&#39;язку з відкриттям</span>
+                </p>
+                </div>
+                </div>
+            </div>			
+			<div class="row justify-content-end">
+				<div class="col-md-8 text-center">
+                <p class="slider_selling_text">Подаруй щастя своїй дитині!</p>
+                </div>
+            </div>
+			<div class="row justify-content-end">
+		        <div class="col-md-8 slider_button_box text-right">
+		            <a href="<?php echo get_site_url()?>/price/" class="btn button_lemur_third" role="button">Придбати квитки</a>
+		        </div>
+			</div>
+		</div>
+    </div>
+    <div class="carousel-item">
+	    <img src="img/mainslide2-min.jpg" alt="Відкритий урок">
+	    <div class="carousel-caption">
+	      	<div class="row justify-content-end">
+				<div class="col-md-8 text-center">
+					<h2 class="slider_heading"><span class="slider_text_uppercase">Відкритий урок</h2>
+	            	<p>Дізнайся більше про природу!</p>
+				</div>
+			</div>
+			<div class="row justify-content-end">
+		        <div class="col-md-8 slider_button_box text-right">
+		            <a href="<?php echo get_site_url()?>/price/" class="btn button_lemur_second" role="button">Детальніше <img src="<?php echo get_template_directory_uri() ?>/assets/img/btn_arrow.svg" alt=""></a>
+		        </div>
+			</div>
+		</div>
+    </div>
+    <div class="carousel-item">
+      	<img src="img/mainslide3-min.jpg" alt="День народження">
+	    <div class="carousel-caption">
+	      	<div class="row justify-content-end">
+				<div class="col-md-8 text-center">
+					<h2 class="slider_heading"><span class="slider_text_uppercase">Твій день народження</h2>
+	        		<p>Разом з усіма друзями</p>
+				</div>
+			</div>
+			<div class="row justify-content-end">
+		        <div class="col-md-8 slider_button_box text-right">
+		            <a href="<?php echo get_site_url()?>/price/" class="btn button_lemur_second" role="button">Детальніше <img src="<?php echo get_template_directory_uri() ?>/assets/img/btn_arrow.svg" alt=""></a>
+		        </div>
+			</div>
+		</div>
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+   </body>
+</html>
